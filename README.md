@@ -1,0 +1,2 @@
+# WxcanvasGetImageData
+使用canvasGetImageData将canvas转成base64的图片
