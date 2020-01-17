@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <canvas style="width: 300px; height: 200px;" class="myCanvas" canvas-id="firstCanvas"></canvas>
+  <text class="text">{{img}}</text>
+  <!-- 如果要在真机打印或者在text中显示canvasToTempFilePath获取到的地址请注释掉下面这一句，不然你啥都看不到 -->
+  <image class="img" src="{{img}}"></image>
+</view>
